@@ -4,6 +4,7 @@
   "description": "TodoList App",
   "main": "index.js",
   "scripts": {
+    "build": "npm i && npm build",
     "start": "nodemon src/index.js"
   },
   "repository": {

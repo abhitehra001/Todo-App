@@ -20,5 +20,5 @@ mongoose.connect(process.env.MONGO_URL)
 app.listen(process.env.PORT, ()=>{
     console.log("Server started at",process.env.PORT);
 })
-
+app.use(cors());
 app.use("/todos", router);

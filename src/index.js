@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const router = require("./routes/Todo");
 const dotenv = require("dotenv");
+const cors = require("cors");
 
 dotenv.config();
 const app = express();

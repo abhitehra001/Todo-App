@@ -22,6 +22,6 @@ app.listen(process.env.PORT, ()=>{
     console.log("Server started at",process.env.PORT);
 })
 app.use(cors({
-    origin:"https://todo-app-react-ws4w.onrender.com/"
+    origin: "https://localhost:3000"
 }));
 app.use("/todos", router);
